@@ -7,11 +7,11 @@
     <title>@yield('title')</title>
     @vite('resources/js/app.js')
 </head>
-<body>
+<body class="bg-dark">
 
     @include('partials.header')
 
-    <div class="container">
+    <div class="container py-5 d-flex flex-wrap justify-content-around">
         @yield('content')
     </div>
 
